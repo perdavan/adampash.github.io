@@ -49,6 +49,7 @@ Last, you need to edit your .octaverc file to get gnuplot to play nicely with Oc
 {% highlight bash %}
 # ~/.octaverc
 setenv ("GNUTERM", "X11")
+#setenv ("GNUTERM", "qt") on yosemite qt works and I could not even find x11 in gnuplot set term
 
 # below is optional; changes the prompt to two chevron
 # and gets rid of the long Octave x.x.x >> prompt
